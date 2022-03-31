@@ -1,0 +1,10 @@
+CONCEPTION :
+
+# Ajout d’une méthode de copie (package ch.epfl.cs107.play.game.icwars.actor.player) :
+
+Dans la classe ICWarsPlayer, nous avons ajouté une méthode public Unit getSelectedUnit(), permettant de retourner une copie profonde de l’attribut selectedUnit (l’unité sélectionnée par le joueur).  
+Cette copie se fait par la méthode clone de Object qui lance une exception, qui sera traitée lors de son appel par la méthode draw() de ICWarsPlayerGUI.
+
+
+# AIPlayer :
+L'implémentation de l'AIPlayer n'étant pas fonctionnelle, la classe et toutes les méthodes la référençant ou l'implémentant(dans ICWars, ICWarsArea, Action, Attack et Wait) ont été commentés.
